@@ -2,13 +2,13 @@
   "name": "cardmarket-api",
   "version": "1.0.0",
   "main": "api.js",
-  "scripts": {
-    "start": "node api.js"
-  },
-  "dependencies": {
-    "express": "^5.1.0",
-    "puppeteer-core": "^10.4.0",
-    "chrome-aws-lambda": "^10.1.0"
+"scripts": {
+  "start": "node api.js"
+},
+"dependencies": {
+  "chrome-aws-lambda": "^10.1.0",
+  "puppeteer-core": "^10.4.0",
+  "express": "^5.1.0"
 },
   "engines": {
     "node": "18.x"
