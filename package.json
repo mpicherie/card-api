@@ -1,15 +1,17 @@
 {
   "name": "cardmarket-api",
   "version": "1.0.0",
+  "description": "API scraping CardMarket avec Puppeteer",
   "main": "api.js",
-"scripts": {
-  "start": "node api.js"
-},
-"dependencies": {
-  "chrome-aws-lambda": "^10.1.0",
-  "puppeteer-core": "^10.4.0",
-  "express": "^5.1.0"
-},
+  "scripts": {
+    "start": "node api.js"
+  },
+  "author": "Maxence",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "puppeteer": "^21.3.8"
+  },
   "engines": {
     "node": "18.x"
   }
